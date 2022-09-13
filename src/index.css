@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  background: #000;
+  /*font-family: 'Bebas Neue', cursive; */
+}
+
+#logo {
+  font-family: "Bebas Neue", cursive;
+}
