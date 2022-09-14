@@ -46,7 +46,7 @@ export default function CatalogueMain() {
   useEffect(() => {
     async function getTopMovies() {
       let response = await fetch(
-        "https://api.themoviedb.org/3/movie/popular?api_key=1d847168b28e6a8153755da57a032b4c"
+        "https://api.themoviedb.org/3/movie/popular?api_key=[API_KEY]"
       );
       response = await response.json();
       setTopMovies(response.results);
