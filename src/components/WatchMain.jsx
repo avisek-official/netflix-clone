@@ -31,7 +31,7 @@ export default function WatchMain(props) {
     ) {
       async function getMovieDetails() {
         let response = await fetch(
-          `https://api.themoviedb.org/3/${props.watchType}/${props.watchId}?api_key=1d847168b28e6a8153755da57a032b4c`
+          `https://api.themoviedb.org/3/${props.watchType}/${props.watchId}?api_key=[API_KEY]`
         );
         response = await response.json();
         setMovie(response);
